@@ -318,5 +318,5 @@ def gbt():
     model_class_report = classification_report(y_test, predictions, target_names = ['PG', 'SG', 'SF', 'PF', 'C'])
     print(model_class_report)
     
-# Calling svm function
+# Calling gbt function
 # gbt()
