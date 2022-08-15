@@ -20,7 +20,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # All the files that start with string 'nba' in the project file are joined
-joined_files = os.path.join(r"C:\Users\rdkck\PycharmProjects\CIDP_Project2", "nba*.csv")
+joined_files = os.path.join(r"local_path", "nba*.csv") # insert the files' local path between ""
 
 # The list of all the files that are joined
 joined_list = glob.glob(joined_files)
